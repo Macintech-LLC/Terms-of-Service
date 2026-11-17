@@ -9,6 +9,7 @@ Public facing legal pages for Macintech LLC applications, served by GitHub Pages
 |---|---|---|
 | Happy Home Task Tracker | Terms of Service | <https://macintech-llc.github.io/Terms-of-Service/Happy%20Home%20Task%20Tracker%20Terms%20of%20Service.html> |
 | Happy Home Task Tracker | Privacy Policy | <https://macintech-llc.github.io/Terms-of-Service/happy-home-privacy-policy.html> |
+| Happy Home Task Tracker | Support | <https://macintech-llc.github.io/Terms-of-Service/happy-home-support.html> |
 | ABC SafeSpot | Privacy Policy | <https://macintech-llc.github.io/Terms-of-Service/abc-safespot-privacy-policy.html> |
 
 These URLs are referenced from App Store Connect and from inside the apps. **Do not rename or move an
