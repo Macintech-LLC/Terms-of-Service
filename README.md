@@ -30,7 +30,7 @@ Sources of truth per app:
 
 | App | Manifest | Note |
 |---|---|---|
-| Happy Home | [`HappyHome/PrivacyInfo.xcprivacy`](https://github.com/Macintech-LLC/Happy-Home/blob/main/HappyHome/PrivacyInfo.xcprivacy) | Declares all 7 collected types; the at-a-glance table mirrors it row for row. |
+| Happy Home | [`HappyHome/PrivacyInfo.xcprivacy`](https://github.com/Macintech-LLC/Happy-Home/blob/main/HappyHome/PrivacyInfo.xcprivacy) | Audited against `main` on Nov 25, 2026 (marketing version 1.37.31). The at-a-glance table is the recommended App Store label: email, name, user ID, purchase history, other user content, crash data, performance data, other diagnostic data, and a device ID linked because the push token is stored on the account. The manifest lists eight types and does not yet list Other Diagnostic Data. |
 | ABC SafeSpot | [`ABCSafeSpot/ABCSafeSpot/PrivacyInfo.xcprivacy`](https://github.com/Macintech-LLC/ABC-Notifier/blob/master/ABCSafeSpot/ABCSafeSpot/PrivacyInfo.xcprivacy) | ⚠ `NSPrivacyCollectedDataTypes` is currently an empty array and understates what the app collects (UDID, usage data). Sentry-collected types are covered by `Sentry.framework`'s own bundled manifest. Fix the app manifest in a future build. |
 
 ABC SafeSpot also has a second privacy policy rendered by its own backend at
